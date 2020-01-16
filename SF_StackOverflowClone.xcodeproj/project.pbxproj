@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02505B5107B2C6CA6FD3FEC0 /* Pods_SF_StackOverflowClone_SF_StackOverflowCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52213CDE7E2CD8AFA1EB28CA /* Pods_SF_StackOverflowClone_SF_StackOverflowCloneUITests.framework */; };
+		38A522F823CA39BD00AD6562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A522F723CA39BD00AD6562 /* AppDelegate.swift */; };
+		38A522FA23CA39BD00AD6562 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A522F923CA39BD00AD6562 /* SceneDelegate.swift */; };
+		38A522FC23CA39BD00AD6562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A522FB23CA39BD00AD6562 /* ViewController.swift */; };
+		38A522FF23CA39BD00AD6562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A522FD23CA39BD00AD6562 /* Main.storyboard */; };
+		38A5230223CA39BD00AD6562 /* SF_StackOverflowClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38A5230023CA39BD00AD6562 /* SF_StackOverflowClone.xcdatamodeld */; };
+		38A5230423CA39C300AD6562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A5230323CA39C300AD6562 /* Assets.xcassets */; };
+		38A5230723CA39C300AD6562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A5230523CA39C300AD6562 /* LaunchScreen.storyboard */; };
+		38A5231223CA39C300AD6562 /* SF_StackOverflowCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5231123CA39C300AD6562 /* SF_StackOverflowCloneTests.swift */; };
+		38A5231D23CA39C300AD6562 /* SF_StackOverflowCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5231C23CA39C300AD6562 /* SF_StackOverflowCloneUITests.swift */; };
+		38D341CA23CCECB00095B441 /* StackParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341C923CCECAF0095B441 /* StackParser.swift */; };
+		38D341CC23CCED880095B441 /* StackData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341CB23CCED880095B441 /* StackData.swift */; };
+		38D341CE23CD15A50095B441 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341CD23CD15A50095B441 /* QuestionViewController.swift */; };
+		38D341D023CE285F0095B441 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341CF23CE285F0095B441 /* URLBuilder.swift */; };
+		38D341D223CE291D0095B441 /* StackNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341D123CE291D0095B441 /* StackNetworking.swift */; };
+		38D341D623CF8AD60095B441 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341D523CF8AD60095B441 /* ResultCell.swift */; };
+		38D341DA23CF96390095B441 /* AnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341D923CF96390095B441 /* AnswerCell.swift */; };
+		38D341DD23CFBD130095B441 /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341DC23CFBD130095B441 /* SlideMenuViewController.swift */; };
+		38D341DE23CFBFC50095B441 /* Pods_SF_StackOverflowClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C09D4965689BA4F1F3E025 /* Pods_SF_StackOverflowClone.framework */; };
+		38D341DF23CFBFC50095B441 /* Pods_SF_StackOverflowClone.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05C09D4965689BA4F1F3E025 /* Pods_SF_StackOverflowClone.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9A6D8EA1BD3E7823B9EBE0E9 /* Pods_SF_StackOverflowCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2839D21E251A5884B0BA49B /* Pods_SF_StackOverflowCloneTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38A5230E23CA39C300AD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38A522EC23CA39BD00AD6562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38A522F323CA39BD00AD6562;
+			remoteInfo = SF_StackOverflowClone;
+		};
+		38A5231923CA39C300AD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38A522EC23CA39BD00AD6562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38A522F323CA39BD00AD6562;
+			remoteInfo = SF_StackOverflowClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38D341E023CFBFC50095B441 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				38D341DF23CFBFC50095B441 /* Pods_SF_StackOverflowClone.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05C09D4965689BA4F1F3E025 /* Pods_SF_StackOverflowClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SF_StackOverflowClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C83B2334F3AB3454840C42 /* Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests/Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37ABAFF1B12F6B8D52E89CB2 /* Pods-SF_StackOverflowClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF_StackOverflowClone.debug.xcconfig"; path = "Target Support Files/Pods-SF_StackOverflowClone/Pods-SF_StackOverflowClone.debug.xcconfig"; sourceTree = "<group>"; };
+		38A522F423CA39BD00AD6562 /* SF_StackOverflowClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SF_StackOverflowClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A522F723CA39BD00AD6562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38A522F923CA39BD00AD6562 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38A522FB23CA39BD00AD6562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38A522FE23CA39BD00AD6562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38A5230123CA39BD00AD6562 /* SF_StackOverflowClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SF_StackOverflowClone.xcdatamodel; sourceTree = "<group>"; };
+		38A5230323CA39C300AD6562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38A5230623CA39C300AD6562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38A5230823CA39C300AD6562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A5230D23CA39C300AD6562 /* SF_StackOverflowCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SF_StackOverflowCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A5231123CA39C300AD6562 /* SF_StackOverflowCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF_StackOverflowCloneTests.swift; sourceTree = "<group>"; };
+		38A5231323CA39C300AD6562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A5231823CA39C300AD6562 /* SF_StackOverflowCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SF_StackOverflowCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A5231C23CA39C300AD6562 /* SF_StackOverflowCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF_StackOverflowCloneUITests.swift; sourceTree = "<group>"; };
+		38A5231E23CA39C300AD6562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D341C923CCECAF0095B441 /* StackParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackParser.swift; sourceTree = "<group>"; };
+		38D341CB23CCED880095B441 /* StackData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackData.swift; sourceTree = "<group>"; };
+		38D341CD23CD15A50095B441 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		38D341CF23CE285F0095B441 /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
+		38D341D123CE291D0095B441 /* StackNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackNetworking.swift; sourceTree = "<group>"; };
+		38D341D523CF8AD60095B441 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		38D341D923CF96390095B441 /* AnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCell.swift; sourceTree = "<group>"; };
+		38D341DC23CFBD130095B441 /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+		39CEB45177899AD8079E1448 /* Pods-SF_StackOverflowCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF_StackOverflowCloneTests.release.xcconfig"; path = "Target Support Files/Pods-SF_StackOverflowCloneTests/Pods-SF_StackOverflowCloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		4BF8CC7C4325C7A4ADC072EF /* Pods-SF_StackOverflowCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF_StackOverflowCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-SF_StackOverflowCloneTests/Pods-SF_StackOverflowCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52213CDE7E2CD8AFA1EB28CA /* Pods_SF_StackOverflowClone_SF_StackOverflowCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SF_StackOverflowClone_SF_StackOverflowCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7F548E5A003B7A68D047B2 /* Pods-SF_StackOverflowClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF_StackOverflowClone.release.xcconfig"; path = "Target Support Files/Pods-SF_StackOverflowClone/Pods-SF_StackOverflowClone.release.xcconfig"; sourceTree = "<group>"; };
+		A2839D21E251A5884B0BA49B /* Pods_SF_StackOverflowCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SF_StackOverflowCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03A7024CAF82AA0502C88CF /* Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests/Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38A522F123CA39BD00AD6562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D341DE23CFBFC50095B441 /* Pods_SF_StackOverflowClone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A5230A23CA39C300AD6562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6D8EA1BD3E7823B9EBE0E9 /* Pods_SF_StackOverflowCloneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A5231523CA39C300AD6562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02505B5107B2C6CA6FD3FEC0 /* Pods_SF_StackOverflowClone_SF_StackOverflowCloneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E5CAE050A7C4975B0274E76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37ABAFF1B12F6B8D52E89CB2 /* Pods-SF_StackOverflowClone.debug.xcconfig */,
+				5C7F548E5A003B7A68D047B2 /* Pods-SF_StackOverflowClone.release.xcconfig */,
+				E03A7024CAF82AA0502C88CF /* Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests.debug.xcconfig */,
+				26C83B2334F3AB3454840C42 /* Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests.release.xcconfig */,
+				4BF8CC7C4325C7A4ADC072EF /* Pods-SF_StackOverflowCloneTests.debug.xcconfig */,
+				39CEB45177899AD8079E1448 /* Pods-SF_StackOverflowCloneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		38A522EB23CA39BD00AD6562 = {
+			isa = PBXGroup;
+			children = (
+				38A522F623CA39BD00AD6562 /* SF_StackOverflowClone */,
+				38A5231023CA39C300AD6562 /* SF_StackOverflowCloneTests */,
+				38A5231B23CA39C300AD6562 /* SF_StackOverflowCloneUITests */,
+				38A522F523CA39BD00AD6562 /* Products */,
+				2E5CAE050A7C4975B0274E76 /* Pods */,
+				83BDA3011370E8DA8A4A4AB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38A522F523CA39BD00AD6562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A522F423CA39BD00AD6562 /* SF_StackOverflowClone.app */,
+				38A5230D23CA39C300AD6562 /* SF_StackOverflowCloneTests.xctest */,
+				38A5231823CA39C300AD6562 /* SF_StackOverflowCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38A522F623CA39BD00AD6562 /* SF_StackOverflowClone */ = {
+			isa = PBXGroup;
+			children = (
+				38A522F723CA39BD00AD6562 /* AppDelegate.swift */,
+				38A522F923CA39BD00AD6562 /* SceneDelegate.swift */,
+				38D341E223D0DEAA0095B441 /* Resources */,
+				38A5230523CA39C300AD6562 /* LaunchScreen.storyboard */,
+				38A522FD23CA39BD00AD6562 /* Main.storyboard */,
+				38D341E123D0DE930095B441 /* Networking */,
+				38D341DB23CFBCEA0095B441 /* SideMenu */,
+				38D341D823CF95830095B441 /* Questions */,
+				38D341D723CF95580095B441 /* MainPage */,
+			);
+			path = SF_StackOverflowClone;
+			sourceTree = "<group>";
+		};
+		38A5231023CA39C300AD6562 /* SF_StackOverflowCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				38A5231123CA39C300AD6562 /* SF_StackOverflowCloneTests.swift */,
+				38A5231323CA39C300AD6562 /* Info.plist */,
+			);
+			path = SF_StackOverflowCloneTests;
+			sourceTree = "<group>";
+		};
+		38A5231B23CA39C300AD6562 /* SF_StackOverflowCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38A5231C23CA39C300AD6562 /* SF_StackOverflowCloneUITests.swift */,
+				38A5231E23CA39C300AD6562 /* Info.plist */,
+			);
+			path = SF_StackOverflowCloneUITests;
+			sourceTree = "<group>";
+		};
+		38D341D723CF95580095B441 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				38A522FB23CA39BD00AD6562 /* ViewController.swift */,
+				38D341D523CF8AD60095B441 /* ResultCell.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		38D341D823CF95830095B441 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				38D341CD23CD15A50095B441 /* QuestionViewController.swift */,
+				38D341D923CF96390095B441 /* AnswerCell.swift */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
+		38D341DB23CFBCEA0095B441 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				38D341DC23CFBD130095B441 /* SlideMenuViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		38D341E123D0DE930095B441 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				38D341C923CCECAF0095B441 /* StackParser.swift */,
+				38D341D123CE291D0095B441 /* StackNetworking.swift */,
+				38D341CF23CE285F0095B441 /* URLBuilder.swift */,
+				38D341CB23CCED880095B441 /* StackData.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		38D341E223D0DEAA0095B441 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38A5230023CA39BD00AD6562 /* SF_StackOverflowClone.xcdatamodeld */,
+				38A5230823CA39C300AD6562 /* Info.plist */,
+				38A5230323CA39C300AD6562 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83BDA3011370E8DA8A4A4AB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05C09D4965689BA4F1F3E025 /* Pods_SF_StackOverflowClone.framework */,
+				52213CDE7E2CD8AFA1EB28CA /* Pods_SF_StackOverflowClone_SF_StackOverflowCloneUITests.framework */,
+				A2839D21E251A5884B0BA49B /* Pods_SF_StackOverflowCloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38A522F323CA39BD00AD6562 /* SF_StackOverflowClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A5232123CA39C300AD6562 /* Build configuration list for PBXNativeTarget "SF_StackOverflowClone" */;
+			buildPhases = (
+				E0F428A20A665155101F3796 /* [CP] Check Pods Manifest.lock */,
+				38A522F023CA39BD00AD6562 /* Sources */,
+				38A522F123CA39BD00AD6562 /* Frameworks */,
+				38A522F223CA39BD00AD6562 /* Resources */,
+				38D341E023CFBFC50095B441 /* Embed Frameworks */,
+				CCFB0EBC9C7550F6B7A16E8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SF_StackOverflowClone;
+			productName = SF_StackOverflowClone;
+			productReference = 38A522F423CA39BD00AD6562 /* SF_StackOverflowClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38A5230C23CA39C300AD6562 /* SF_StackOverflowCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A5232423CA39C300AD6562 /* Build configuration list for PBXNativeTarget "SF_StackOverflowCloneTests" */;
+			buildPhases = (
+				6DFB6AC99862099391E7993F /* [CP] Check Pods Manifest.lock */,
+				38A5230923CA39C300AD6562 /* Sources */,
+				38A5230A23CA39C300AD6562 /* Frameworks */,
+				38A5230B23CA39C300AD6562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38A5230F23CA39C300AD6562 /* PBXTargetDependency */,
+			);
+			name = SF_StackOverflowCloneTests;
+			productName = SF_StackOverflowCloneTests;
+			productReference = 38A5230D23CA39C300AD6562 /* SF_StackOverflowCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38A5231723CA39C300AD6562 /* SF_StackOverflowCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A5232723CA39C300AD6562 /* Build configuration list for PBXNativeTarget "SF_StackOverflowCloneUITests" */;
+			buildPhases = (
+				D60FA01A0F785AA5A2FDF3FA /* [CP] Check Pods Manifest.lock */,
+				38A5231423CA39C300AD6562 /* Sources */,
+				38A5231523CA39C300AD6562 /* Frameworks */,
+				38A5231623CA39C300AD6562 /* Resources */,
+				7F608D4ADBB8E332923D9049 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38A5231A23CA39C300AD6562 /* PBXTargetDependency */,
+			);
+			name = SF_StackOverflowCloneUITests;
+			productName = SF_StackOverflowCloneUITests;
+			productReference = 38A5231823CA39C300AD6562 /* SF_StackOverflowCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38A522EC23CA39BD00AD6562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Salma;
+				TargetAttributes = {
+					38A522F323CA39BD00AD6562 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					38A5230C23CA39C300AD6562 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 38A522F323CA39BD00AD6562;
+					};
+					38A5231723CA39C300AD6562 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 38A522F323CA39BD00AD6562;
+					};
+				};
+			};
+			buildConfigurationList = 38A522EF23CA39BD00AD6562 /* Build configuration list for PBXProject "SF_StackOverflowClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38A522EB23CA39BD00AD6562;
+			productRefGroup = 38A522F523CA39BD00AD6562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38A522F323CA39BD00AD6562 /* SF_StackOverflowClone */,
+				38A5230C23CA39C300AD6562 /* SF_StackOverflowCloneTests */,
+				38A5231723CA39C300AD6562 /* SF_StackOverflowCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38A522F223CA39BD00AD6562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A5230723CA39C300AD6562 /* LaunchScreen.storyboard in Resources */,
+				38A5230423CA39C300AD6562 /* Assets.xcassets in Resources */,
+				38A522FF23CA39BD00AD6562 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A5230B23CA39C300AD6562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A5231623CA39C300AD6562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DFB6AC99862099391E7993F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SF_StackOverflowCloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F608D4ADBB8E332923D9049 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests/Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests/Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests/Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFB0EBC9C7550F6B7A16E8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SF_StackOverflowClone/Pods-SF_StackOverflowClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SF_StackOverflowClone/Pods-SF_StackOverflowClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SF_StackOverflowClone/Pods-SF_StackOverflowClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D60FA01A0F785AA5A2FDF3FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F428A20A665155101F3796 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SF_StackOverflowClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38A522F023CA39BD00AD6562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A522FC23CA39BD00AD6562 /* ViewController.swift in Sources */,
+				38D341DD23CFBD130095B441 /* SlideMenuViewController.swift in Sources */,
+				38A5230223CA39BD00AD6562 /* SF_StackOverflowClone.xcdatamodeld in Sources */,
+				38A522F823CA39BD00AD6562 /* AppDelegate.swift in Sources */,
+				38D341DA23CF96390095B441 /* AnswerCell.swift in Sources */,
+				38A522FA23CA39BD00AD6562 /* SceneDelegate.swift in Sources */,
+				38D341CC23CCED880095B441 /* StackData.swift in Sources */,
+				38D341D023CE285F0095B441 /* URLBuilder.swift in Sources */,
+				38D341CE23CD15A50095B441 /* QuestionViewController.swift in Sources */,
+				38D341D223CE291D0095B441 /* StackNetworking.swift in Sources */,
+				38D341D623CF8AD60095B441 /* ResultCell.swift in Sources */,
+				38D341CA23CCECB00095B441 /* StackParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A5230923CA39C300AD6562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A5231223CA39C300AD6562 /* SF_StackOverflowCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A5231423CA39C300AD6562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A5231D23CA39C300AD6562 /* SF_StackOverflowCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38A5230F23CA39C300AD6562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38A522F323CA39BD00AD6562 /* SF_StackOverflowClone */;
+			targetProxy = 38A5230E23CA39C300AD6562 /* PBXContainerItemProxy */;
+		};
+		38A5231A23CA39C300AD6562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38A522F323CA39BD00AD6562 /* SF_StackOverflowClone */;
+			targetProxy = 38A5231923CA39C300AD6562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38A522FD23CA39BD00AD6562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38A522FE23CA39BD00AD6562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38A5230523CA39C300AD6562 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38A5230623CA39C300AD6562 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38A5231F23CA39C300AD6562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38A5232023CA39C300AD6562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38A5232223CA39C300AD6562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37ABAFF1B12F6B8D52E89CB2 /* Pods-SF_StackOverflowClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SF_StackOverflowClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.SF-StackOverflowClone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38A5232323CA39C300AD6562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7F548E5A003B7A68D047B2 /* Pods-SF_StackOverflowClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SF_StackOverflowClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.SF-StackOverflowClone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38A5232523CA39C300AD6562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF8CC7C4325C7A4ADC072EF /* Pods-SF_StackOverflowCloneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SF_StackOverflowCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.SF-StackOverflowCloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SF_StackOverflowClone.app/SF_StackOverflowClone";
+			};
+			name = Debug;
+		};
+		38A5232623CA39C300AD6562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CEB45177899AD8079E1448 /* Pods-SF_StackOverflowCloneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SF_StackOverflowCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.SF-StackOverflowCloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SF_StackOverflowClone.app/SF_StackOverflowClone";
+			};
+			name = Release;
+		};
+		38A5232823CA39C300AD6562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03A7024CAF82AA0502C88CF /* Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SF_StackOverflowCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.SF-StackOverflowCloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SF_StackOverflowClone;
+			};
+			name = Debug;
+		};
+		38A5232923CA39C300AD6562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26C83B2334F3AB3454840C42 /* Pods-SF_StackOverflowClone-SF_StackOverflowCloneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SF_StackOverflowCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MCS.SF-StackOverflowCloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SF_StackOverflowClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38A522EF23CA39BD00AD6562 /* Build configuration list for PBXProject "SF_StackOverflowClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A5231F23CA39C300AD6562 /* Debug */,
+				38A5232023CA39C300AD6562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A5232123CA39C300AD6562 /* Build configuration list for PBXNativeTarget "SF_StackOverflowClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A5232223CA39C300AD6562 /* Debug */,
+				38A5232323CA39C300AD6562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A5232423CA39C300AD6562 /* Build configuration list for PBXNativeTarget "SF_StackOverflowCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A5232523CA39C300AD6562 /* Debug */,
+				38A5232623CA39C300AD6562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A5232723CA39C300AD6562 /* Build configuration list for PBXNativeTarget "SF_StackOverflowCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A5232823CA39C300AD6562 /* Debug */,
+				38A5232923CA39C300AD6562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38A5230023CA39BD00AD6562 /* SF_StackOverflowClone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38A5230123CA39BD00AD6562 /* SF_StackOverflowClone.xcdatamodel */,
+			);
+			currentVersion = 38A5230123CA39BD00AD6562 /* SF_StackOverflowClone.xcdatamodel */;
+			path = SF_StackOverflowClone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38A522EC23CA39BD00AD6562 /* Project object */;
+}
