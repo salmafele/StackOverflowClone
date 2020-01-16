@@ -22,11 +22,11 @@
 		38D341CE23CD15A50095B441 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341CD23CD15A50095B441 /* QuestionViewController.swift */; };
 		38D341D023CE285F0095B441 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341CF23CE285F0095B441 /* URLBuilder.swift */; };
 		38D341D223CE291D0095B441 /* StackNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341D123CE291D0095B441 /* StackNetworking.swift */; };
-		38D341D623CF8AD60095B441 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341D523CF8AD60095B441 /* ResultCell.swift */; };
 		38D341DA23CF96390095B441 /* AnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341D923CF96390095B441 /* AnswerCell.swift */; };
 		38D341DD23CFBD130095B441 /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341DC23CFBD130095B441 /* SlideMenuViewController.swift */; };
 		38D341DE23CFBFC50095B441 /* Pods_SF_StackOverflowClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C09D4965689BA4F1F3E025 /* Pods_SF_StackOverflowClone.framework */; };
 		38D341DF23CFBFC50095B441 /* Pods_SF_StackOverflowClone.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05C09D4965689BA4F1F3E025 /* Pods_SF_StackOverflowClone.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		38D341E423D0F2700095B441 /* StackNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D341E323D0F2700095B441 /* StackNetworkManager.swift */; };
 		9A6D8EA1BD3E7823B9EBE0E9 /* Pods_SF_StackOverflowCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2839D21E251A5884B0BA49B /* Pods_SF_StackOverflowCloneTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,9 +85,9 @@
 		38D341CD23CD15A50095B441 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		38D341CF23CE285F0095B441 /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
 		38D341D123CE291D0095B441 /* StackNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackNetworking.swift; sourceTree = "<group>"; };
-		38D341D523CF8AD60095B441 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
 		38D341D923CF96390095B441 /* AnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCell.swift; sourceTree = "<group>"; };
 		38D341DC23CFBD130095B441 /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+		38D341E323D0F2700095B441 /* StackNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackNetworkManager.swift; sourceTree = "<group>"; };
 		39CEB45177899AD8079E1448 /* Pods-SF_StackOverflowCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF_StackOverflowCloneTests.release.xcconfig"; path = "Target Support Files/Pods-SF_StackOverflowCloneTests/Pods-SF_StackOverflowCloneTests.release.xcconfig"; sourceTree = "<group>"; };
 		4BF8CC7C4325C7A4ADC072EF /* Pods-SF_StackOverflowCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF_StackOverflowCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-SF_StackOverflowCloneTests/Pods-SF_StackOverflowCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		52213CDE7E2CD8AFA1EB28CA /* Pods_SF_StackOverflowClone_SF_StackOverflowCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SF_StackOverflowClone_SF_StackOverflowCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +164,7 @@
 			children = (
 				38A522F723CA39BD00AD6562 /* AppDelegate.swift */,
 				38A522F923CA39BD00AD6562 /* SceneDelegate.swift */,
+				38A5230823CA39C300AD6562 /* Info.plist */,
 				38D341E223D0DEAA0095B441 /* Resources */,
 				38A5230523CA39C300AD6562 /* LaunchScreen.storyboard */,
 				38A522FD23CA39BD00AD6562 /* Main.storyboard */,
@@ -197,7 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				38A522FB23CA39BD00AD6562 /* ViewController.swift */,
-				38D341D523CF8AD60095B441 /* ResultCell.swift */,
 			);
 			path = MainPage;
 			sourceTree = "<group>";
@@ -224,6 +224,7 @@
 			children = (
 				38D341C923CCECAF0095B441 /* StackParser.swift */,
 				38D341D123CE291D0095B441 /* StackNetworking.swift */,
+				38D341E323D0F2700095B441 /* StackNetworkManager.swift */,
 				38D341CF23CE285F0095B441 /* URLBuilder.swift */,
 				38D341CB23CCED880095B441 /* StackData.swift */,
 			);
@@ -234,7 +235,6 @@
 			isa = PBXGroup;
 			children = (
 				38A5230023CA39BD00AD6562 /* SF_StackOverflowClone.xcdatamodeld */,
-				38A5230823CA39C300AD6562 /* Info.plist */,
 				38A5230323CA39C300AD6562 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -496,11 +496,11 @@
 				38A522F823CA39BD00AD6562 /* AppDelegate.swift in Sources */,
 				38D341DA23CF96390095B441 /* AnswerCell.swift in Sources */,
 				38A522FA23CA39BD00AD6562 /* SceneDelegate.swift in Sources */,
+				38D341E423D0F2700095B441 /* StackNetworkManager.swift in Sources */,
 				38D341CC23CCED880095B441 /* StackData.swift in Sources */,
 				38D341D023CE285F0095B441 /* URLBuilder.swift in Sources */,
 				38D341CE23CD15A50095B441 /* QuestionViewController.swift in Sources */,
 				38D341D223CE291D0095B441 /* StackNetworking.swift in Sources */,
-				38D341D623CF8AD60095B441 /* ResultCell.swift in Sources */,
 				38D341CA23CCECB00095B441 /* StackParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

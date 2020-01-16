@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         searchBar.delegate = self
         
+        tableView.reloadData()
         
         let url = builder.search(search: "TableView Programmatically")
 
@@ -50,20 +51,17 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UITableViewDelegate, UITableViewDataSource {
-
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "toResultWindow", sender: nil)
-    }
+// MARK: Table Data Source
+extension ViewController: UITableViewDataSource {
     
  // TableView DataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return questionResult.count
+        return  questionResult.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "resultCell") as? ResultCell else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "resultCell") else { return UITableViewCell() }
         
         let question = questionResult[indexPath.row]
         cell.textLabel?.text = question.title
@@ -72,6 +70,15 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
+// MARK: Table Delegate
+extension ViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "toResultWindow", sender: nil)
+    }
+}
+
+// MARK: Search Bar Delegate
 extension ViewController: UISearchBarDelegate {
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {

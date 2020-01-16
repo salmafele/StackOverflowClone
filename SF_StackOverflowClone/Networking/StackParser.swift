@@ -9,16 +9,16 @@
 import Foundation
 
 class StackParser {
+
     func parse(data: Data, completed: (StackData) -> Void) {
-        DispatchQueue.global(qos: .background).async {
-            
-            do {
-                let jsonDecoder = jsonDecoder()
-                let stackData = try jsonDecoder.decode(StackData.self, from: data)
-                completed(stackData)
-            } catch {
-                print("error: \(error.localizedDescription)")
-            }
+    
+    let jsonDecoder = JSONDecoder()
+    
+        do {
+            let stackData = try jsonDecoder.decode(StackData.self, from: data)
+            completed(stackData)
+        } catch {
+            print("error: \(error.localizedDescription)")
         }
     }
 }
