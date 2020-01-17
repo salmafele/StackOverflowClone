@@ -47,6 +47,13 @@ class QuestionViewController: UIViewController {
             }
         }
     }
+    
+    func getQuestions() {
+    
+        let mainVC = ViewController()
+        
+        
+    }
 }
 
 extension QuestionViewController: UITableViewDelegate, UITableViewDataSource {

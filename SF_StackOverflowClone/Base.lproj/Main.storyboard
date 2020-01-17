@@ -39,9 +39,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="58"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="Ybi-0k-HfN" kind="show" identifier="toResultWindow" id="mQb-iR-aHz"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -86,6 +83,7 @@
                     <connections>
                         <outlet property="searchBar" destination="8zj-8a-lgN" id="v1s-Gl-P4D"/>
                         <outlet property="tableView" destination="5Nk-53-H80" id="kRQ-19-V1c"/>
+                        <segue destination="Ybi-0k-HfN" kind="show" identifier="toResultWindow" id="NDC-TT-uyv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vgp-oS-9bJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
